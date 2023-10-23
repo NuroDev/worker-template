@@ -4,7 +4,7 @@ import type { ExportedHandler } from "@cloudflare/workers-types";
 
 import type { Env } from "~/types";
 
-const app = new Hono<Env>();
+const app = new Hono<Env>().get("/", (c) => c.text("Hello World"));
 
 export default {
   fetch: app.fetch,
