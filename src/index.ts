@@ -7,5 +7,5 @@ import type { Env } from "~/types";
 const app = new Hono<Env>().get("/", (c) => c.text("Hello World"));
 
 export default {
-  fetch: app.fetch,
+	fetch: app.fetch,
 } satisfies ExportedHandler<Env>;

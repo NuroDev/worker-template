@@ -1,18 +1,18 @@
 {
-  "compilerOptions": {
-    "baseUrl": ".",
-    "esModuleInterop": true,
-    "lib": ["ESNext"],
-    "module": "ESNext",
-    "moduleResolution": "Node",
-    "noEmit": true,
-    "paths": {
-      "~/*": ["./src/*"]
-    },
-    "skipLibCheck": true,
-    "strict": true,
-    "target": "ESNext",
-    "types": ["@cloudflare/workers-types"]
-  },
-  "include": ["src/**/*.ts"]
+	"compilerOptions": {
+		"baseUrl": ".",
+		"esModuleInterop": true,
+		"lib": ["ESNext"],
+		"module": "ESNext",
+		"moduleResolution": "Node",
+		"noEmit": true,
+		"paths": {
+			"~/*": ["./src/*"]
+		},
+		"skipLibCheck": true,
+		"strict": true,
+		"target": "ESNext",
+		"types": ["@cloudflare/workers-types"]
+	},
+	"include": ["src/**/*.ts"]
 }

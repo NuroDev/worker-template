@@ -1,4 +1,10 @@
-import type { DurableObjectNamespace, Fetcher, KVNamespace, Queue, R2Bucket } from '@cloudflare/workers-types';
+import type {
+	DurableObjectNamespace,
+	Fetcher,
+	KVNamespace,
+	Queue,
+	R2Bucket,
+} from "@cloudflare/workers-types";
 
 type Bindings = {
 	// Example binding to KV. Learn more at https://developers.cloudflare.com/workers/runtime-apis/kv/
