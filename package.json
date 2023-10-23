@@ -9,6 +9,7 @@
 	"scripts": {
 		"deploy": "wrangler deploy",
 		"dev": "wrangler dev",
+		"format": "prettier --write '**/*.{ts,tsx}'",
 		"start": "wrangler dev"
 	},
 	"dependencies": {
