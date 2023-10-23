@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "name": "worker-template",
+  "version": "1.1.1",
+  "main": "index.js",
+  "repository": "https://github.com/nurodev/worker-template.git",
+  "author": "nurodev <ben@nuro.dev>",
+  "license": "MIT"
+}
